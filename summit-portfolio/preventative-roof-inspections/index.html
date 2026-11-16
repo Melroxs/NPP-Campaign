@@ -537,6 +537,28 @@
                 }
             }
         
+
+/* NPP identity: official campaign logo, warm gold and cream palette */
+:root{--ink:#17191c;--gold:#b28b55;--cream:#f5f2ec;--muted:#6e7175;--line:#e6e1d8;--green:#287454}
+body{background:var(--cream);color:var(--ink)}
+.direct-header{background:#fff;border-bottom:3px solid var(--gold)}
+.direct-header-inner{min-height:78px}
+.npp-brand{display:inline-flex;align-items:center;max-width:255px}
+.npp-brand img{display:block;width:auto;height:auto;max-width:235px;max-height:58px;object-fit:contain}
+.direct-phone{color:var(--ink);border:1px solid var(--gold);border-radius:4px;padding:9px 14px}
+.direct-phone:hover{background:var(--cream)}
+.direct-hero{border-bottom:5px solid var(--gold)}
+.direct-hero .eyebrow{color:#e7c99f}
+.direct-points span:before{color:#d9b27e}
+.booking{background:var(--cream)!important}
+.formbox{border-top:4px solid var(--gold);border-radius:5px;background:#fff}
+.formbox h3{color:var(--ink)}
+.formbox .button,.formbox button,.formbox input[type=submit]{background:var(--gold)!important;border-color:var(--gold)!important;color:#fff!important;border-radius:4px!important;font-weight:800}
+.formbox .button:hover,.formbox button:hover,.formbox input[type=submit]:hover{background:#967143!important}
+.formbox input:focus,.formbox select:focus{outline:2px solid rgba(178,139,85,.28);border-color:var(--gold)}
+.demo-foot{background:#17191c;color:#d8d2c8}
+@media(max-width:650px){.npp-brand img{max-width:190px;max-height:48px}.direct-header-inner{min-height:66px}.direct-phone{padding:7px 9px;font-size:12px}}
+
 /* Conversion-first NPP campaign layout */
 body{background:#f4f6f8;color:#17212d}
 .direct-header{background:#fff;border-bottom:1px solid #e6e9ed}
@@ -544,7 +566,7 @@ body{background:#f4f6f8;color:#17212d}
 .npp-wordmark{font:800 18px/1.1 Manrope,sans-serif;letter-spacing:.04em;color:#17212d}
 .npp-wordmark span{display:block;margin-top:4px;font:600 10px/1.2 "DM Sans",sans-serif;letter-spacing:.16em;color:#687586}
 .direct-phone{color:#17212d;font-weight:800;text-decoration:none;white-space:nowrap}
-.direct-hero{background:linear-gradient(105deg,rgba(9,24,39,.94),rgba(9,24,39,.76)),url('https://www.newparadigmprojects.com/img/team-sunset.jpg') center/cover;color:#fff}
+.direct-hero{background:linear-gradient(90deg,rgba(20,22,25,.96) 0%,rgba(20,22,25,.88) 48%,rgba(20,22,25,.58) 100%),url('https://raw.githubusercontent.com/Melroxs/NPP-Campaign/main/The_NPP_preventative_roof_inspection_campaign_25MB/npp_static_01_4x5.png') center 42%/cover;color:#fff}
 .direct-hero-inner{max-width:1180px;margin:auto;padding:32px 24px 28px}
 .direct-hero .eyebrow{color:#b8d8ee;font-weight:800;letter-spacing:.13em;font-size:12px}
 .direct-hero h1{max-width:780px;margin:12px 0 10px;color:#fff;font:800 clamp(30px,4vw,46px)/1.08 Manrope,sans-serif}
@@ -565,7 +587,7 @@ body{background:#f4f6f8;color:#17212d}
 @media(max-width:650px){.direct-header-inner{padding:12px 16px}.npp-wordmark{font-size:15px}.direct-phone{font-size:13px}.direct-hero-inner{padding:25px 18px 22px}.direct-hero h1{font-size:31px}.direct-hero p{font-size:14px}.booking{padding:14px 0 24px!important}.bookinggrid{padding:0 12px}.formbox{padding:20px 16px!important}.formbox .fields{grid-template-columns:1fr!important}.formbox label.full{grid-column:auto!important}}</style>
     </head>
     <body>
-<header class="direct-header"><div class="direct-header-inner"><div class="npp-wordmark">NEW PARADIGM PROJECTS<span>BUILT TO PROTECT. DESIGNED TO LAST.</span></div><a class="direct-phone" href="tel:3012009223">Call 301-200-9223</a></div></header>
+<header class="direct-header" id="top"><div class="direct-header-inner"><a class="npp-brand" href="#top" aria-label="New Paradigm Projects"><img src="https://raw.githubusercontent.com/Melroxs/NPP-Campaign/main/NPP%20Storm%20damage%20Campaign/Brand%20Assets/npp-official-logo.png" alt="New Paradigm Projects"></a><a class="direct-phone" href="tel:3012009223">Call 301-200-9223</a></div></header>
 <main><section class="direct-hero"><div class="direct-hero-inner"><div class="eyebrow">PREVENTATIVE ROOF INSPECTIONS</div><h1>Know your roof’s condition before a small issue grows.</h1><p>A proactive residential roof inspection can help you understand wear, maintenance needs and practical next steps—before a leak interrupts your day.</p><div class="direct-points"><span>Residential homeowners</span><span>DMV service coverage</span><span>Clear next steps</span></div></div></section>
 <section class="booking" id="booking"><div class="container bookinggrid"><div class="formbox">
                     <span class="demo-tag">Interactive demo · not connected to GoHighLevel</span>
