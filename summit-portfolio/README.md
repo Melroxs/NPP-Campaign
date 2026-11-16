@@ -1,25 +1,33 @@
 # Summit Leads — NPP Campaign Showcase
 
-This folder contains the standalone source for the interactive New Paradigm Projects campaign showcase.
+This folder contains the source and handoff notes for the interactive New Paradigm Projects campaign demonstration.
 
-## Entry point
+## Live demo
 
-- `index.html` — responsive campaign showcase with playable video previews, linked static creatives, campaign-specific landing-page CTAs, and a clear demo-only notice.
+- Campaign showcase: https://npp-campaign-showcase.vercel.app/
+- Summit Leads portfolio: https://summit-leads-website-portfolio.vercel.app/
 
-## Landing-page routes expected on the Summit Leads portfolio
+The showcase is deployed as a small standalone Vercel project because the existing portfolio's original source repository is not connected/available in the current deployment workspace. This keeps the existing portfolio deployment intact.
 
-- Storm Damage: `/npp/storm-damage/`
-- Preventative Roof Inspections: `/npp/preventative-roof-inspections/`
-- Roof Repairs & Maintenance: `/npp/roof-repairs-maintenance/`
+## Existing campaign landing pages
+
+- Storm Damage Roof Inspections: https://summit-leads-website-portfolio.vercel.app/npp/storm-damage/
+- Preventative Roof Inspections: https://summit-leads-website-portfolio.vercel.app/npp/preventative-roof-inspections/
+- Roof Repairs & Maintenance: https://summit-leads-website-portfolio.vercel.app/npp/roof-repairs-maintenance/
+
+## Source files
+
+- `npp-campaign-showcase/index.html` — responsive campaign showcase with playable video previews, linked static creatives, campaign-specific landing-page CTAs, and a demo-only notice.
+- `DAVID-DEMO-GUIDE.md` — suggested demo sequence, qualification rules, test cases, and safety notes.
 
 ## Asset source
 
-The showcase references the original video and image files in the campaign folders in this repository using GitHub raw-content URLs. The asset files are not duplicated.
+The showcase references original video and image files in the campaign folders in this repository using GitHub raw-content URLs. The media files are not duplicated.
 
 ## Demo safety
 
-This showcase is a presentation layer only. It does not submit lead data to GoHighLevel, create contacts, reserve calendar slots, or send customer or salesperson notifications. The existing campaign landing pages provide the simulated qualification and booking flow.
+The showcase and campaign landing pages are presentation/demo only. They do not submit lead data to GoHighLevel, create contacts, reserve real calendar slots, or send customer or salesperson notifications. A sample booking confirmation is not a live appointment.
 
-## Deployment note
+## Integration note
 
-The showcase file is intended to be integrated into the Summit Leads portfolio site's source project at the route `/npp/campaign-showcase/`. Do not deploy this single file as the root of the existing portfolio: the portfolio contains other pages and routes that must remain in the deployment.
+The showcase is currently deployed at its own Vercel URL and links directly to the existing Summit Leads landing pages. It has not been inserted into the Summit Leads portfolio homepage/navigation because the original portfolio source repository has not yet been identified. Do not replace the existing portfolio deployment with a single-file deployment.
