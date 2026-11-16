@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Preventative Roof Inspections | New Paradigm Projects</title>
+        <meta name="description" content="You don't have to wait for a leak or visible damage to understand your roof's condition. Request a residential roof inspection and get practical guidance from New Paradigm Projects.">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');:root {
+                --ink: #17191c;
+                --gold: #b28b55;
+                --cream: #f5f2ec;
+                --muted: #6e7175;
+                --line: #e6e1d8;
+                --green: #287454;
+                --red: #a83c35
+            }
+
+            * {
+                box-sizing: border-box
+            }
+
+            html {
+                scroll-behavior: smooth
+            }
+
+            body {
+                margin: 0;
+                color: var(--ink);
+                font: 16px/1.65 'DM Sans',Arial,sans-serif
+            }
+
+            a {
+                color: inherit;
+                text-decoration: none
+            }
+
+            .container {
+                width: min(1160px,calc(100% - 44px));
+                margin: auto
+            }
+
+            .utility {
+                background: #17191c;
+                color: #eee;
+                padding: 9px 0;
+                font-size: 10px;
+                letter-spacing: .13em;
+                text-transform: uppercase
+            }
+
+            .utility .container {
+                display: flex;
+                justify-content: space-between
+            }
+
+            .utility a,.footer a {
+                color: #e0c18f
+            }
+
+            header {
+                background: #fff;
+                border-bottom: 1px solid #eee
+            }
+
+            .nav {
+                height: 82px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between
+            }
+
+            .logo img {
+                width: 168px;
+                max-height: 62px;
+                object-fit: contain
+            }
+
+            .navlinks {
+                display: flex;
+                gap: 24px;
+                font-size: 11px;
+                font-weight: 700;
+                text-transform: uppercase
+            }
+
+            .button {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                background: var(--gold);
+                color: #fff;
+                padding: 14px 21px;
+                font-size: 11px;
+                font-weight: 800;
+                letter-spacing: .1em;
+                text-transform: uppercase;
+                border: 1px solid var(--gold);
+                cursor: pointer
+            }
+
+            .button.dark {
+                background: var(--ink);
+                border-color: var(--ink)
+            }
+
+            .hero {
+                min-height: 560px;
+                position: relative;
+                display: flex;
+                align-items: center;
+                color: #fff;
+                background: #222
+            }
+
+            .hero:before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(90deg,#0f1111e8,#0f1111a8 58%,#0f111133);
+                z-index: 1
+            }
+
+            .hero-bg {
+                position: absolute;
+                inset: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover
+            }
+
+            .hero-inner {
+                position: relative;
+                z-index: 2;
+                padding: 80px 0;
+                max-width: 730px
+            }
+
+            .eyebrow,.kicker {
+                color: var(--gold);
+                font-size: 10px;
+                font-weight: 800;
+                letter-spacing: .2em;
+                text-transform: uppercase
+            }
+
+            .eyebrow {
+                color: #d2b17c
+            }
+
+            .hero h1 {
+                font: 600 clamp(40px,5.2vw,65px)/1.08 Manrope;
+                margin: 18px 0
+            }
+
+            .hero p {
+                font-size: 18px;
+                color: #e5e4e1;
+                max-width: 650px
+            }
+
+            .hero-actions {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                flex-wrap: wrap
+            }
+
+            .phone {
+                font-size: 13px;
+                font-weight: 700
+            }
+
+            .phone small {
+                display: block;
+                color: #ccc;
+                font-size: 9px;
+                text-transform: uppercase
+            }
+
+            .trustbar,.cream,.booking {
+                background: var(--cream)
+            }
+
+            .trustgrid {
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                padding: 20px 0
+            }
+
+            .trustitem {
+                padding: 0 24px;
+                border-right: 1px solid #d8d1c6
+            }
+
+            .trustitem:first-child {
+                padding-left: 0
+            }
+
+            .trustitem:last-child {
+                border: 0
+            }
+
+            .trustitem b {
+                display: block;
+                font: 700 13px Manrope
+            }
+
+            .trustitem span {
+                font-size: 12px;
+                color: var(--muted)
+            }
+
+            .section {
+                padding: 78px 0
+            }
+
+            .section h2,.booking h2 {
+                font: 600 clamp(30px,3.7vw,44px)/1.15 Manrope;
+                margin: 12px 0
+            }
+
+            .section-head {
+                max-width: 740px;
+                margin-bottom: 34px
+            }
+
+            .section-head p,.featurecopy p,.booking-intro p {
+                color: var(--muted)
+            }
+
+            .featuregrid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 55px;
+                align-items: center
+            }
+
+            .featureimg {
+                width: 100%;
+                height: 410px;
+                object-fit: cover
+            }
+
+            .ticks {
+                list-style: none;
+                padding: 0
+            }
+
+            .ticks li {
+                padding: 10px 0;
+                border-bottom: 1px solid var(--line);
+                font-size: 14px
+            }
+
+            .ticks li:before {
+                content: "＋";
+                color: var(--gold);
+                margin-right: 10px
+            }
+
+            .cards {
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                gap: 18px
+            }
+
+            .card {
+                background: #fff;
+                border: 1px solid var(--line);
+                padding: 25px
+            }
+
+            .card .num {
+                font: 600 34px Manrope;
+                color: #c7b18f
+            }
+
+            .card h3 {
+                font: 700 18px Manrope;
+                margin: 8px 0
+            }
+
+            .card p {
+                font-size: 14px;
+                color: var(--muted)
+            }
+
+            .areas {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 9px
+            }
+
+            .areas span {
+                background: #fff;
+                border: 1px solid var(--line);
+                padding: 8px 12px;
+                font-size: 12px
+            }
+
+            .testimonial {
+                background: #fff;
+                border: 1px dashed #c9bda9;
+                padding: 24px;
+                color: #777;
+                font-size: 13px
+            }
+
+            .booking {
+                padding: 78px 0
+            }
+
+            .bookinggrid {
+                display: grid;
+                grid-template-columns: .72fr 1.28fr;
+                gap: 45px
+            }
+
+            .formbox {
+                background: #fff;
+                padding: 30px;
+                box-shadow: 0 14px 44px #1b1d2010
+            }
+
+            .formbox h3 {
+                font: 700 22px Manrope;
+                margin: 0
+            }
+
+            .sub {
+                font-size: 13px;
+                color: var(--muted)
+            }
+
+            .demo-tag {
+                display: inline-block;
+                background: #fff3d8;
+                color: #79561e;
+                border: 1px solid #e8d5a7;
+                padding: 5px 8px;
+                font-size: 9px;
+                font-weight: 800;
+                letter-spacing: .1em;
+                text-transform: uppercase;
+                margin-bottom: 12px
+            }
+
+            .fields {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 13px
+            }
+
+            .fields label,.calendar-grid label {
+                font-size: 10px;
+                letter-spacing: .055em;
+                text-transform: uppercase;
+                font-weight: 800;
+                color: #575a5d
+            }
+
+            .fields input,.fields select,.calendar-grid input,.calendar-grid select {
+                display: block;
+                width: 100%;
+                margin-top: 6px;
+                padding: 13px;
+                border: 1px solid #dcd8d0;
+                background: #fff;
+                font: 14px 'DM Sans',sans-serif
+            }
+
+            .fields .full {
+                grid-column: 1/-1
+            }
+
+            .fine {
+                font-size: 10px;
+                color: #888;
+                line-height: 1.5
+            }
+
+            .panel {
+                margin-top: 20px;
+                padding: 20px;
+                border: 1px solid var(--line);
+                background: #fbfaf8
+            }
+
+            .panel h3 {
+                font: 700 20px Manrope;
+                margin: 0 0 8px
+            }
+
+            .panel p,.panel li {
+                font-size: 14px;
+                color: #555
+            }
+
+            .panel.bad {
+                border-color: #e4c2be;
+                background: #fff8f7
+            }
+
+            .panel.bad h3 {
+                color: var(--red)
+            }
+
+            .panel.good {
+                border-color: #c4dfd0;
+                background: #f6fbf8
+            }
+
+            .panel.good h3 {
+                color: var(--green)
+            }
+
+            .calendar-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 14px
+            }
+
+            .slots {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 9px;
+                margin: 12px 0 18px
+            }
+
+            .slot {
+                border: 1px solid #cfc9be;
+                background: #fff;
+                padding: 10px 14px;
+                cursor: pointer;
+                font-size: 12px
+            }
+
+            .slot.active {
+                background: #202328;
+                color: #fff
+            }
+
+            .confirmation {
+                border: 1px solid #b9d8c7;
+                background: #f3faf6;
+                padding: 24px;
+                margin-top: 18px
+            }
+
+            .confirmation h3 {
+                color: var(--green)
+            }
+
+            .footer {
+                background: #17191c;
+                color: #d4d4d2;
+                padding: 42px 0 25px
+            }
+
+            .footergrid {
+                display: flex;
+                justify-content: space-between
+            }
+
+            .footer strong {
+                font: 800 14px Manrope;
+                letter-spacing: .12em
+            }
+
+            .footer p {
+                font-size: 12px;
+                color: #a9abad
+            }
+
+            .footbottom {
+                border-top: 1px solid #ffffff25;
+                margin-top: 25px;
+                padding-top: 17px;
+                color: #8f9295;
+                font-size: 10px
+            }
+
+            @media(max-width: 800px) {
+                .container {
+                    width:calc(100% - 34px)
+                }
+
+                .nav {
+                    height: 70px
+                }
+
+                .logo img {
+                    width: 138px
+                }
+
+                .navlinks a:not(.button) {
+                    display: none
+                }
+
+                .hero {
+                    min-height: 540px
+                }
+
+                .trustgrid,.featuregrid,.bookinggrid {
+                    grid-template-columns: 1fr;
+                    gap: 18px
+                }
+
+                .trustitem,.trustitem:first-child {
+                    border: 0;
+                    padding: 0
+                }
+
+                .section,.booking {
+                    padding: 62px 0
+                }
+
+                .featureimg {
+                    height: 290px
+                }
+
+                .cards {
+                    grid-template-columns: 1fr
+                }
+
+                .fields,.calendar-grid {
+                    grid-template-columns: 1fr
+                }
+
+                .fields .full {
+                    grid-column: auto
+                }
+
+                .footergrid {
+                    display: block
+                }
+            }
+        
+/* Conversion-first NPP campaign layout */
+body{background:#f4f6f8;color:#17212d}
+.direct-header{background:#fff;border-bottom:1px solid #e6e9ed}
+.direct-header-inner{max-width:1180px;margin:auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.npp-wordmark{font:800 18px/1.1 Manrope,sans-serif;letter-spacing:.04em;color:#17212d}
+.npp-wordmark span{display:block;margin-top:4px;font:600 10px/1.2 "DM Sans",sans-serif;letter-spacing:.16em;color:#687586}
+.direct-phone{color:#17212d;font-weight:800;text-decoration:none;white-space:nowrap}
+.direct-hero{background:linear-gradient(105deg,rgba(9,24,39,.94),rgba(9,24,39,.76)),url('https://www.newparadigmprojects.com/img/team-sunset.jpg') center/cover;color:#fff}
+.direct-hero-inner{max-width:1180px;margin:auto;padding:32px 24px 28px}
+.direct-hero .eyebrow{color:#b8d8ee;font-weight:800;letter-spacing:.13em;font-size:12px}
+.direct-hero h1{max-width:780px;margin:12px 0 10px;color:#fff;font:800 clamp(30px,4vw,46px)/1.08 Manrope,sans-serif}
+.direct-hero p{max-width:700px;margin:0;color:#e8eef4;font-size:16px;line-height:1.55}
+.direct-points{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:16px;color:#fff;font-size:13px;font-weight:700}
+.direct-points span:before{content:"✓";margin-right:7px;color:#9ed4b5}
+.booking{padding:22px 0 34px!important;background:#f4f6f8!important}
+.bookinggrid{display:block!important;max-width:900px!important}
+.booking-intro{display:none!important}
+.formbox{width:100%;max-width:900px;margin:0 auto;box-shadow:0 14px 44px rgba(19,34,49,.11);border:1px solid #e2e7ec}
+.formbox h3{font-size:22px}
+.formbox .sub{margin-bottom:18px}
+.formbox form>p .button{width:100%;min-height:52px;font-size:14px}
+.formbox .fields{gap:14px}
+.formbox label{font-weight:700}
+.formbox input,.formbox select{min-height:46px}
+.demo-foot{text-align:center;padding:16px 20px 24px;color:#687586;font-size:12px}
+@media(max-width:650px){.direct-header-inner{padding:12px 16px}.npp-wordmark{font-size:15px}.direct-phone{font-size:13px}.direct-hero-inner{padding:25px 18px 22px}.direct-hero h1{font-size:31px}.direct-hero p{font-size:14px}.booking{padding:14px 0 24px!important}.bookinggrid{padding:0 12px}.formbox{padding:20px 16px!important}.formbox .fields{grid-template-columns:1fr!important}.formbox label.full{grid-column:auto!important}}</style>
+    </head>
+    <body>
+<header class="direct-header"><div class="direct-header-inner"><div class="npp-wordmark">NEW PARADIGM PROJECTS<span>BUILT TO PROTECT. DESIGNED TO LAST.</span></div><a class="direct-phone" href="tel:3012009223">Call 301-200-9223</a></div></header>
+<main><section class="direct-hero"><div class="direct-hero-inner"><div class="eyebrow">PREVENTATIVE ROOF INSPECTIONS</div><h1>Know your roof’s condition before a small issue grows.</h1><p>A proactive residential roof inspection can help you understand wear, maintenance needs and practical next steps—before a leak interrupts your day.</p><div class="direct-points"><span>Residential homeowners</span><span>DMV service coverage</span><span>Clear next steps</span></div></div></section>
+<section class="booking" id="booking"><div class="container bookinggrid"><div class="formbox">
+                    <span class="demo-tag">Interactive demo · not connected to GoHighLevel</span>
+                    <h3>Homeowner qualification</h3>
+                    <p class="sub">Complete the required details to check the inspection criteria.</p>
+                    <form id="qualForm">
+                        <div class="fields">
+                            <label>
+                                First name<input required name="firstName" placeholder="First name">
+                            </label>
+                            <label>
+                                Last name<input required name="lastName" placeholder="Last name">
+                            </label>
+                            <label>
+                                Phone number<input required name="phone" type="tel" placeholder="Phone number">
+                            </label>
+                            <label>
+                                Email address<input required name="email" type="email" placeholder="Email address">
+                            </label>
+                            <label class="full">
+                                Property street address<input required name="street" placeholder="Street address">
+                            </label>
+                            <label>
+                                City<input required name="city" placeholder="City">
+                            </label>
+                            <label>
+                                State
+                                <select required name="state">
+                                    <option value="">Select state</option>
+                                    <option>Maryland</option>
+                                    <option>District of Columbia</option>
+                                    <option>Virginia</option>
+                                </select>
+                            </label>
+                            <label class="full">
+                                Property ZIP code<input required name="zip" inputmode="numeric" maxlength="5" pattern="[0-9]{5}" placeholder="5-digit ZIP code">
+                            </label>
+                            <label class="full">
+                                Is this a residential property?
+                                <select required name="propertyType">
+                                    <option value="">Select answer</option>
+                                    <option value="residential">Yes — residential</option>
+                                    <option value="commercial">No — commercial / other</option>
+                                </select>
+                            </label>
+                            <label class="full">
+                                Are you the homeowner of this property?
+                                <select required name="homeowner">
+                                    <option value="">Select answer</option>
+                                    <option value="yes">Yes, I am the homeowner</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </label>
+                            <label class="full">
+                                Have you filed a homeowners' insurance claim for this property within the last six months?
+                                <select required name="recentClaim">
+                                    <option value="">Select answer</option>
+                                    <option value="no">No</option>
+                                    <option value="yes">Yes</option>
+                                </select>
+                            </label>
+                            <label class="full">
+                                Is there currently an open homeowners' insurance claim for this property?
+                                <select required name="openClaim">
+                                    <option value="">Select answer</option>
+                                    <option value="no">No</option>
+                                    <option value="yes">Yes</option>
+                                </select>
+                            </label>
+                        </div>
+                        <p>
+                            <button class="button dark" type="submit">CHECK ELIGIBILITY</button>
+                        </p>
+                        <p class="fine">Demo answers are evaluated in this browser only. No personal information is sent or stored. Live use requires NPP-approved privacy and consent wording.</p>
+                    </form>
+                    <div id="outcome" aria-live="polite"></div>
+                    <!-- GHL PLACEHOLDER: create/update contact; map answers to custom fields; apply Qualified/Disqualified tags; trigger follow-up workflow; fetch real calendar availability; create appointment after qualification; notify salesperson. No live credentials or endpoint configured. --></div></section></main>
+<footer class="demo-foot">Interactive campaign concept by Summit Leads Ltd · Demonstration only. No information is transmitted or stored, no live calendar is connected, and no appointment is reserved.</footer>
+<script>
+            const NPP_APPROVED_ZIPS = ["20601", "20602", "20603", "20606", "20607", "20608", "20609", "20611", "20613", "20615", "20616", "20617", "20618", "20619", "20620", "20621", "20622", "20623", "20624", "20625", "20626", "20628", "20629", "20630", "20632", "20634", "20636", "20637", "20639", "20640", "20643", "20645", "20646", "20650", "20653", "20656", "20657", "20658", "20659", "20660", "20661", "20662", "20664", "20667", "20670", "20674", "20675", "20676", "20677", "20678", "20680", "20682", "20684", "20685", "20686", "20687", "20688", "20689", "20690", "20692", "20693", "20695", "20701", "20705", "20706", "20707", "20708", "20710", "20711", "20712", "20714", "20715", "20716", "20720", "20721", "20722", "20723", "20724", "20732", "20733", "20735", "20736", "20737", "20740", "20742", "20743", "20744", "20745", "20746", "20747", "20748", "20751", "20754", "20755", "20758", "20759", "20762", "20763", "20764", "20765", "20769", "20770", "20772", "20774", "20776", "20777", "20778", "20779", "20781", "20782", "20783", "20784", "20785", "20794", "20812", "20814", "20815", "20816", "20817", "20818", "20832", "20833", "20837", "20838", "20839", "20841", "20842", "20850", "20851", "20852", "20853", "20854", "20855", "20860", "20861", "20862", "20866", "20868", "20871", "20872", "20874", "20876", "20877", "20878", "20879", "20880", "20882", "20886", "20895", "20896", "20899", "20901", "20902", "20903", "20904", "20905", "20906", "20910", "20912", "21012", "21029", "21032", "21035", "21036", "21037", "21042", "21043", "21044", "21045", "21046", "21048", "21054", "21056", "21060", "21061", "21074", "21075", "21076", "21077", "21090", "21102", "21104", "21108", "21113", "21114", "21122", "21136", "21140", "21144", "21146", "21155", "21157", "21158", "21163", "21201", "21202", "21205", "21206", "21207", "21209", "21210", "21211", "21212", "21213", "21214", "21215", "21216", "21217", "21218", "21223", "21224", "21225", "21226", "21229", "21230", "21231", "21239", "21240", "21401", "21402", "21403", "21405", "21409", "21701", "21702", "21703", "21704", "21705", "21709", "21710", "21714", "21716", "21717", "21718", "21719", "21723", "21727", "21737", "21738", "21754", "21755", "21757", "21758", "21759", "21762", "21769", "21770", "21771", "21773", "21774", "21775", "21776", "21777", "21778", "21780", "21783", "21784", "21787", "21788", "21790", "21791", "21792", "21793", "21794", "21797", "21798"];
+            const form = document.getElementById('qualForm')
+              , out = document.getElementById('outcome');
+            form.addEventListener('submit', e => {
+                e.preventDefault();
+                const d = Object.fromEntries(new FormData(form).entries());
+                const reasons = [];
+                if (d.propertyType !== 'residential')
+                    reasons.push('NPP currently accepts residential properties only.');
+                if (d.homeowner !== 'yes')
+                    reasons.push('The person requesting the inspection must be the homeowner.');
+                if (!NPP_APPROVED_ZIPS.includes(d.zip.trim()))
+                    reasons.push('The property ZIP code is not currently included in NPP’s approved service-area ZIP codes.');
+                if (d.recentClaim === 'yes')
+                    reasons.push('A homeowners’ insurance claim has been filed for this property within the last six months.');
+                if (d.openClaim === 'yes')
+                    reasons.push('There is currently an open homeowners’ insurance claim for this property.');
+                if (reasons.length) {
+                    out.innerHTML = '<div class="panel bad"><h3>Thank you for your interest in NPP.</h3><p>Unfortunately, based on the information provided, your property does not currently meet our inspection requirements. We appreciate your interest and thank you for considering NPP.</p><ul>' + reasons.map(x => '<li>' + x + '</li>').join('') + '</ul><p><strong>Demo result: Disqualified. No calendar or appointment step is shown.</strong></p><button class="button dark" type="button" onclick="resetJourney()">Start again</button></div>';
+                    return;
+                }
+                const min = new Date();
+                min.setDate(min.getDate() + 1);
+                const max = new Date();
+                max.setDate(max.getDate() + 30);
+                out.innerHTML = '<div class="panel good"><h3>You’re eligible to continue!</h3><p>Your answers meet NPP’s current demo criteria. Choose a sample date and time below.</p><p><strong>ZIP:</strong> ' + d.zip + ' · <strong>Homeowner:</strong> Yes · <strong>Residential:</strong> Yes</p></div><div class="panel" id="calendarPanel"><span class="demo-tag">Sample availability · not a live NPP calendar</span><h3>Select an inspection date</h3><p>These illustrative time slots are not connected to a technician schedule and are not reserved.</p><div class="calendar-grid"><label>Preferred date<input id="demoDate" type="date" min="' + min.toISOString().slice(0, 10) + '" max="' + max.toISOString().slice(0, 10) + '"></label><label>Available time<select id="demoTime"><option value="">Select a date first</option></select></label></div><p><button class="button dark" id="confirmDemo" type="button" disabled onclick="finishJourney()">CONFIRM DEMO APPOINTMENT</button></p><p class="fine">Live GHL placeholder: retrieve real availability, create the appointment after qualification, notify the salesperson and send the homeowner confirmation.</p></div>';
+                document.getElementById('calendarPanel').scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'nearest'
+                });
+            }
+            );
+            document.addEventListener('change', e => {
+                if (e.target.id === 'demoDate') {
+                    document.getElementById('demoTime').innerHTML = '<option value="">Choose a time</option><option>9:00 AM</option><option>11:00 AM</option><option>1:00 PM</option><option>3:00 PM</option>';
+                    document.getElementById('confirmDemo').disabled = true;
+                }
+                if (e.target.id === 'demoTime')
+                    document.getElementById('confirmDemo').disabled = !e.target.value;
+            }
+            );
+            function finishJourney() {
+                const date = document.getElementById('demoDate').value
+                  , time = document.getElementById('demoTime').value;
+                if (!date || !time)
+                    return;
+                const nice = new Date(date + 'T12:00:00').toLocaleDateString('en-US', {
+                    weekday: 'long',
+                    month: 'long',
+                    day: 'numeric',
+                    year: 'numeric'
+                });
+                document.getElementById('calendarPanel').innerHTML = '<div class="confirmation"><span class="demo-tag">Simulated booking confirmation</span><h3>Thank You! Your Inspection Request Has Been Received.</h3><p>Your selected appointment has been successfully booked. One of our team members will contact you shortly to confirm your details and appointment. We look forward to assisting you!</p><p><strong>Selected date:</strong> ' + nice + '<br><strong>Selected time:</strong> ' + time + '</p><p><strong>Demo notice:</strong> This is a simulated booking only. No appointment has been created in NPP’s calendar, no time slot has been reserved, and no notification or confirmation has been sent.</p><button class="button dark" onclick="resetJourney()">Run journey again</button></div>';
+            }
+            function resetJourney() {
+                form.reset();
+                out.innerHTML = '';
+                form.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center'
+                });
+            }
+        </script></body></html>
